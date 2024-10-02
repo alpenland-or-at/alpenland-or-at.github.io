@@ -406,7 +406,7 @@ h4,
 .day,
 .linkCollection {
     font-family: 'neue-haas-unica', Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 200;
 }
 
 .wrapper {
@@ -465,7 +465,7 @@ a:hover {
     float: left;
     max-width: 100%;
     padding: 10px 5%;
-    height: 60px;
+    height: 50px;
     text-decoration: none;
 }
 
@@ -1130,6 +1130,7 @@ a.mapLink:visited {
         padding-left: 4.5%;
         padding-top: 0;
         padding-bottom: 10px;
+        height: 70px;
         text-decoration: none;
     }
 
