@@ -4,15 +4,15 @@
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Datenschutzerklärung |  K.Ö.H.V. Alpenland Wien</title>
+<title> K.Ö.H.V. Alpenland Wien |  </title>
 <meta name="description" content="">
 
-<link rel="canonical" href="/datenschutzbestimmung/">
+<link rel="canonical" href="/index.mdbak">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:4000/datenschutzbestimmung/">
-<meta property="og:title" content=" Datenschutzerklärung |  K.Ö.H.V. Alpenland Wien">
+<meta property="og:url" content="http://localhost:4000/index.mdbak">
+<meta property="og:title" content=" K.Ö.H.V. Alpenland Wien |  ">
 <meta property="og:description" content="">
 <meta property="og:image:secure_url" content=" http://localhost:4000/assets/img/og/mainpage.png ">
 <meta property="og:image" content=" http://localhost:4000/assets/img/og/mainpage.png ">
@@ -27,8 +27,8 @@
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://localhost:4000/datenschutzbestimmung/">
-<meta property="twitter:title" content=" Datenschutzerklärung |  K.Ö.H.V. Alpenland Wien">
+<meta property="twitter:url" content="http://localhost:4000/index.mdbak">
+<meta property="twitter:title" content=" K.Ö.H.V. Alpenland Wien |  ">
 <meta property="twitter:description" content="">
 <meta property="twitter:image" content=" http://localhost:4000/assets/img/og/mainpage.png ">
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
@@ -57,7 +57,7 @@
 <style>
     
     
-    #datenschutzbestimmung {
+    #index.mdbak {
       color:var( --alpenland-kornblumen-blau-light);
     }
     
@@ -82,40 +82,15 @@
 
 
         <div class="wrapper" id="wrapper">
-            <h1>Datenschutzbestimmung</h1>
-<p>Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.</p>
+            <img src="/assets/img/clemens.jpg" id="about-img">
 
-<h2 id="kontakt-mit-uns">Kontakt mit uns</h2>
+<div id="describe-text">
+	<p>This is my personal website where you can find blog posts about DIY and hardware projects, as well as my Résumé.</p>
+	<p>Currently I am studying computer engineering at the TU Wien. I love working with 3D printers, microcontrollers and hardware in general. The blog is still a bit empty but more will follow in the coming months.
+	I am also the founder of  <a href="https://alpion.net"  target="_blank">Alpion</a>, a company that provides hardware for animal tracking. If you have any questions to my projects you can contact me via email <a href="mailto:office@velocit.at"  target="_blank">office@velocit.at</a>.</p>
 
-<p>Wenn Sie per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
+</div>
 
-<h2 id="cookies">Cookies</h2>
-
-<p>Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an. Wir nutzen Cookies dazu, um Ihre Verwendungspräferenzen bei der Nutzung der MapTiler-Karten zu speichern. Diese Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihre Präferenzen beim nächsten Besuch wiederzuerkennen. Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.</p>
-
-<h2 id="maptiler">MapTiler</h2>
-
-<p>Diese Webseite verwendet das Produkt von MapTiler AG. Durch Klicken und Verwenden der Kontaktwebsite erklären Sie sich mit der Erfassung, Bearbeitung sowie Nutzung der automatisiert erhobenen Daten durch MapTiler AG, deren Vertreter sowie Dritter einverstanden. Die Nutzungsbedingungen finden sie in den <a href="https://www.maptiler.com/privacy-policy/">Nutzungsbedingungen</a> von MapTiler.</p>
-
-<h2 id="ihre-rechte">Ihre Rechte</h2>
-
-<p>Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. In Österreich ist dies die Datenschutzbehörde. Sie erreichen uns unter folgenden Kontaktdaten:</p>
-
-<h2 id="datenverantwortlicher">Datenverantwortlicher</h2>
-
-<p>Alpenland, katholische österreichische Verbindung technischer Hochschüler</p>
-
-<p>Schlösselgasse 19/3</p>
-
-<p>1080 Wien</p>
-
-<p><a href="https://www.alpenland.or.at">www.alpenland.or.at</a></p>
-
-<p><a href="mailto:x@alpenland.or.at">x@alpenland.or.at</a></p>
-
-<p>Registriert als Verein bei der Landespolizeidirektion Wien</p>
-
-<p>ZVR Zahl: 547262422</p>
 
 
         </div>

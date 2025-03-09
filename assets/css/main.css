@@ -353,8 +353,21 @@
     content: "\eb24";
 }
 
+.ri-information-line:before { 
+    content: "\ee59"; 
+}
+
+.ri-map-pin-2-line:before { 
+    content: "\ef0a";
+}
+
+.ri-time-line:before { 
+    content: "\f20f";
+}
+
 :root {
     --gray: #5d5d5d;
+    --light-gray: #808080;
     --alpenland-blau: #1b4d75;
     --alpenland-blau-website-alt: #1a80b6;
     --alpenland-kornblumen-blau: #6495ED;
@@ -597,10 +610,10 @@ div.event-details>h3 {
     margin-top: -0.4rem;
 }
 
-div.event-details>p.info-new {
+div.event-details>div.info-new {
     font-size: 0.9rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color: var(--gray);
     margin-top: 0;
     margin-bottom: 0.2rem;
@@ -611,11 +624,19 @@ div.event-details>p.details {
     margin-top: 0.2rem;
 }
 
-div.event-details>p>img {
-    height: 0.8rem;
-    width: 0.8rem;
+div.event-details>div.info-new>i {
+    color: var(--light-gray);
     padding-right: 0.5rem;
+    font-size: 1rem;
+    padding-top: 0.1rem;
 }
+div.event-details>div.info-new>p {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
 
 div.event-details>p {
     margin-top: 0.5rem;
@@ -667,6 +688,8 @@ h2.calendar-heading {
 #copy {
     text-align: center;
     padding: 0rem 0.2rem;
+    font-size: 2rem;
+    height: 2rem;
 }
 
 #icsLink {
@@ -676,6 +699,7 @@ h2.calendar-heading {
     padding: 0.4rem;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    width: 80%;
 }
 
 #icsLink:focus {
@@ -694,6 +718,7 @@ h2.calendar-heading {
     background-color: var(--alpenland-blau);
     transition: all .4s ease-in-out;
     cursor: copy;
+    height: 2rem;
 }
 
 #copyButton:hover {
@@ -1176,4 +1201,8 @@ a.mapLink:visited {
     div.event-details>h3 {
         font-size: 2rem;
     }
+
+    #icsLink {
+        width:25%;
+    } 
 }
