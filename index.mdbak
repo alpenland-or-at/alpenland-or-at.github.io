@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> K.Ö.H.V. Alpenland Wien |  </title>
+<meta name="description" content="">
+
+<link rel="canonical" href="/index.mdbak">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.alpenland.or.at/index.mdbak">
+<meta property="og:title" content=" K.Ö.H.V. Alpenland Wien |  ">
+<meta property="og:description" content="">
+<meta property="og:image:secure_url" content=" https://www.alpenland.or.at/assets/img/og/mainpage.png ">
+<meta property="og:image" content=" https://www.alpenland.or.at/assets/img/og/mainpage.png ">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="og:image:secure_url" content=" https://www.alpenland.or.at/assets/img/og/mainpage_small.png ">
+<meta property="og:image" content=" https://www.alpenland.or.at/assets/img/og/mainpage_small.png ">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.alpenland.or.at/index.mdbak">
+<meta property="twitter:title" content=" K.Ö.H.V. Alpenland Wien |  ">
+<meta property="twitter:description" content="">
+<meta property="twitter:image" content=" https://www.alpenland.or.at/assets/img/og/mainpage.png ">
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="preload" href="/assets/fonts/montserrat/montserrat-regular-webfont.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/assets/fonts/playfair/playfair-display-v30-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/assets/fonts/playfair/playfair-display-v30-latin-800.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<style>
+    
+    
+    #index.mdbak {
+      color:var( --alpenland-kornblumen-blau-light);
+    }
+    
+</style>
+    </head>
+    <body>
+        <header class="header" id="jshead">
+        <a href="/" class="logo"><img src="/assets/img/svg/logo.svg" alt="Wappen K.Ö.H.V. Alpenland"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a id="home" href="/">HOME</a></li>
+            <!--<li><a id="leitbild" href="/leitbild">LEITBILD</a></li>-->
+            <li><a id="semesterprogramm" href="/semesterprogramm">SEMESTERPROGRAMM</a></li>
+            <!--<li><a id="verband" href="/verband">VERBAND</a></li>
+            <li><a id="blog" href="/blog">BLOG</a></li>-->
+            <li><a id="chargen" href="/chargen">CHARGEN</a></li>
+            <li><a id="kontakt" href="/kontakt">KONTAKT</a></li>
+        </ul> 
+</header>
+
+
+
+        <div class="wrapper" id="wrapper">
+            <img src="/assets/img/clemens.jpg" id="about-img">
+
+<div id="describe-text">
+	<p>This is my personal website where you can find blog posts about DIY and hardware projects, as well as my Résumé.</p>
+	<p>Currently I am studying computer engineering at the TU Wien. I love working with 3D printers, microcontrollers and hardware in general. The blog is still a bit empty but more will follow in the coming months.
+	I am also the founder of  <a href="https://alpion.net"  target="_blank">Alpion</a>, a company that provides hardware for animal tracking. If you have any questions to my projects you can contact me via email <a href="mailto:office@velocit.at"  target="_blank">office@velocit.at</a>.</p>
+
+</div>
+
+
+
+        </div>
+        <!-- Footer -->
+        <svg xmlns="http://www.w3.org/2000/svg"  class="full-width" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:#f6f6f6;padding:0;margin-bottom:0px;display:block">
+    <path d="M0 0 L0 100 L100 100 Z"></path>
+</svg>
+        <footer>
+            <div class="generalInformation">
+    <div class="contactInformationAll">
+    <a href="/" class="logo"><img src="/assets/img/svg/logo.svg" type="image/png" alt="Wappen K.Ö.H.V. Alpenland"></a>
+    <address>
+        Schlösselgasse 19/3<br>
+        1080 Wien<br>
+    </address>
+    <div class="contactInformation">
+        <a href="tel:004314058113" target="_blank">01 / 405 81 13</a><br>
+        <a href="mailto:office@alpenland.or.at" target="_blank">office@alpenland.or.at</a>
+    </div>
+    <div class="additionalInfo">
+        Budenabend: Jeden Montag ab 20:00 Uhr
+        gemütliches Beisammensein in der Schlösselgasse.
+    </div>
+</div>
+    <ul class="menuFooter">
+        <li><a id="chargen" href="/chargen"> <i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Chargen</span></a></li>
+        <li><a id="semesterprogramm" href="/semesterprogramm"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Semesterprogramm</span></a></li>
+        <!--<li><a id="blog" href="/blog"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Aktuelles</span></a></li>
+        <li><a id="verband" href="/verband"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Verband</span></a></li>
+        <li><a id="leitbild" href="/leitbild"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Leitbild</span></a></li>-->
+        <li><a id="kontakt" href="/kontakt"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Kontakt</span></a></li>
+        <li><a id="alpcloud" href="https://cloud.alpenland.or.at" target="_blank"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Alpenland-Cloud</span></a></li>
+        <li><a id="webmail" href="https://mail.alpenland.or.at" target="_blank"><i class="ri-arrow-right-s-line ri-1x"></i><span class="centerMenu">Alpenland-Webmail</span></a></li>
+    </ul>
+    <div class="socialIconWrapper">
+        <a aria-label="Link to Alpenland Instragram page" href="https://www.instagram.com/koehvalpenland/" target="_blank" class="socialIcons"><img alt="Instragram Logo" src="/assets/img/svg/instagram.svg"></a>
+        <a  aria-label="Link to Alpenland Facebook page"href="https://www.facebook.com/koehvalpenland" target="_blank" class="socialIcons"><img alt="Facebook Logo" src="/assets/img/svg/facebook.svg"></a>
+    </div>  
+</div>
+            <div class="legalInfomation">
+    <div class="legalFlexItem">
+        <p>© Copyright 1921 - 2025  K.Ö.H.V Alpenland Wien - Alle Rechte vorbehalten. </p> 
+    </div>
+    <div class="legalFlexItem">
+        <p><a class="linksLegal" href="/impressum">Impressum</a>  |   <a class="linksLegal" href="/datenschutzbestimmung">Datenschutzbestimmung</a> </p>
+    </div>  
+</div>
+        </footer>
+        <script src="/assets/js/headerAnimation.js"></script>
+    </body>
+</html>
