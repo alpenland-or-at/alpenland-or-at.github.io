@@ -365,6 +365,17 @@
     content: "\f20f";
 }
 
+.ri-microsoft-fill:before { 
+    content: "\ef57"; 
+}
+.ri-google-fill:before { 
+    content: "\edd4"; 
+}
+
+
+.ri-apple-fill:before { 
+    content: "\ea3f"; 
+}
 :root {
     --gray: #5d5d5d;
     --light-gray: #808080;
@@ -580,7 +591,7 @@ a:hover {
 
 /* New CSS for events */
 div.event-new {
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     padding-left: 1rem;
     display: flex;
     align-items: flex-start
@@ -650,9 +661,8 @@ em {
 div.calendar-heading-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     padding-bottom: 2rem;
-    padding-top: 2rem;
     gap: 1.5rem;
 }
 
@@ -666,6 +676,16 @@ h2.calendar-heading {
     flex-grow: 1;
     height: 1px;
     background-color: #9f9f9f;
+}
+.divider-full{
+    height: 2px;
+    background-color: #1a80b6;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.kalender-h2{
+    margin: 3rem 0 0.75rem 0;
+    text-align: center;
 }
 
 .manual img {
@@ -736,12 +756,12 @@ div.buttonContainter {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     flex-wrap: wrap;
 }
 
 div.buttonContainter>a.blueButton {
-    min-width: 17rem;
+    min-width: 12rem;
 }
 
 
@@ -778,6 +798,11 @@ a.blueButton>img:hover {
     filter: invert(10%);
 }
 
+
+
+
+
+
 #buttonElementCopy {
     background-color: var(--alpenland-blau);
     border-radius: 5px;
@@ -804,7 +829,8 @@ div.linkCollection {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    padding-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     font-size: 1.5rem;
 }
 
