@@ -1073,7 +1073,7 @@ img.rounded {
 
 #placeHolderMap {
     cursor: pointer;
-    min-height: 360px;
+    height: 50vh;
     width: 100%;
     background-color: #F0F0F0;
     text-align: center;

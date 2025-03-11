@@ -11,14 +11,14 @@
   .slider {
       overflow: hidden;
       width: 100vw;
-      height: 80vh;
+      height: 100vh;
       position: relative;
       z-index: -1;
       background-color: #323643;
      }
     
   .sliderText{
-    padding-top: 35vh;
+    padding-top: 42vh;
   }
 
   .sliderText h1{
