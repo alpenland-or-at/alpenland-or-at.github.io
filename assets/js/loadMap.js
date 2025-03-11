@@ -25,7 +25,7 @@ function enableMap(){
     el.id = 'marker';
 
     var nav = new maplibregl.NavigationControl();
-    map.addControl(nav, 'top-left');
+    map.addControl(nav, 'bottom-left');
     var markerHeight = 35, markerRadius = 25, linearOffset = 25;
     var popupOffsets = {
     'top': [0, 0],

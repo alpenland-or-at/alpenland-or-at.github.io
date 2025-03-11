@@ -75,9 +75,9 @@ function scrollAnimation(){
             prevDirection = direction;
             console.log(curScroll);
         }else if(direction === 2 && curScroll < 112){
-            document.getElementById("jshead").style.transition= "0s";
+            //document.getElementById("jshead").style.transition= "";
             document.getElementById("jshead").style.position = "fixed";
-            document.getElementById("wrapper").style.paddingTop= "0px";
+            //document.getElementById("wrapper").style.paddingTop= "0px";
         }
         };
 
@@ -85,6 +85,6 @@ function scrollAnimation(){
     }else{
         console.log("was here")
         document.getElementById("jshead").style.position = "relative";
-        document.getElementById("wrapper").style.paddingTop= "0px";
+        //document.getElementById("wrapper").style.paddingTop= "0px";
     }
 }
