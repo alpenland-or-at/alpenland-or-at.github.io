@@ -372,6 +372,9 @@
     content: "\edd4"; 
 }
 
+.ri-link-m:before { 
+    content: "\eeaf"; 
+}
 
 .ri-apple-fill:before { 
     content: "\ea3f"; 
@@ -641,6 +644,15 @@ div.event-details>div.info-new>i {
     font-size: 1rem;
     padding-top: 0.1rem;
 }
+
+div.event-details>div.info-new>a {
+    color: var(--light-gray);
+}
+
+div.event-details>div.info-new>a:hover {
+    color: var(--alpenland-blau);
+}
+
 div.event-details>div.info-new>p {
     color: var(--gray);
     font-size: 0.9rem;
