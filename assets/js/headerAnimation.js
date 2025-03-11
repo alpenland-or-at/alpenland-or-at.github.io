@@ -55,10 +55,10 @@ function scrollAnimation(){
             //console.log(curScroll);
             
         if (direction === 2 && curScroll > 112) { 
-            if(document.getElementById("jshead").style.position=="relative"){
+            if(document.getElementById("jshead").style.position=="fixed"){
                 header.classList.add('hide');
                 document.getElementById("jshead").style.position = "fixed";
-                document.getElementById("wrapper").style.paddingTop= "112px";
+                //document.getElementById("wrapper").style.paddingTop= "112px";
             }else{
                 header.classList.add('hide');
             } 
@@ -76,7 +76,7 @@ function scrollAnimation(){
             console.log(curScroll);
         }else if(direction === 2 && curScroll < 112){
             document.getElementById("jshead").style.transition= "0s";
-            document.getElementById("jshead").style.position = "relative";
+            document.getElementById("jshead").style.position = "fixed";
             document.getElementById("wrapper").style.paddingTop= "0px";
         }
         };

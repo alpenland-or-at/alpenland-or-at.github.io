@@ -13,6 +13,8 @@
       width: 100vw;
       height: 80vh;
       position: relative;
+      z-index: -1;
+      background-color: #323643;
      }
     
   .sliderText{
