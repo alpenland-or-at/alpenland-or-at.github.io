@@ -55,7 +55,7 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 
 <style>
-    li>aindex.mdbak{color:var( --alpenland-kornblumen-blau-light)}
+    li>a.index.mdbak{color:var( --alpenland-kornblumen-blau-light)}
 </style>
     </head>
     <body>
