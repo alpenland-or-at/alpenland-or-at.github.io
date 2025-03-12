@@ -1,4 +1,4 @@
-
+ 
   
 .boxShadow {
     box-shadow: 0 0 50px 50px #00000035;
@@ -18,17 +18,69 @@
      }
     
   .sliderText{
-    padding-top: 42vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    color: white;
   }
 
-  .sliderText h1{
+  h1.sliderTitle{
     color: white;
-    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 3rem;
   }
-  .sliderText p{
-    margin-top: 0rem;
-    padding: 0 3rem 0 3rem;
+  @media (min-width: 1126px) {
+    h1.sliderTitle{
+      font-size: 4rem;
+    }
+    .slogang-wrapper p{
+      font-size: 1.2rem;
+    }
   }
+
+
+  .slogang-wrapper{
+    width: 100vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .slogang-wrapper p{
+    opacity: 0;/* Total animation time */
+    grid-row-start: 1;
+    grid-column-start: 1;
+    
+    animation: fadeCycle 36s infinite; 
+  }
+
+  .slogang-wrapper p:nth-child(1) { 
+    animation-delay: 0s;
+  }
+  .slogang-wrapper p:nth-child(2) { 
+    animation-delay: 9s;
+  }
+  .slogang-wrapper p:nth-child(3) {
+    animation-delay: 18s;
+  }
+  .slogang-wrapper p:nth-child(4) { 
+    animation-delay: 27s;
+  }
+
+  @keyframes fadeCycle {
+    0% { opacity: 0; }
+    1.5625% { opacity: 1; }
+    23.4375% { opacity: 1; }
+    26.5625% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
   .slide {
       position: absolute;
       width: 100%;
@@ -41,8 +93,8 @@
       animation-timing-function: linear;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
-      -webkit-animation-duration: 35s;
-      animation-duration: 35s;
+      -webkit-animation-duration: 36s;
+      animation-duration: 36s;
       opacity: 1;
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
@@ -271,4 +323,4 @@
    -webkit-transform: scale(1);
    transform: scale(1);
   }
-  }
+  } 

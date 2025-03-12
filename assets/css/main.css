@@ -1187,6 +1187,9 @@ a.mapLink:visited {
     .pageHead>h2 {
         font-size: 1.5rem;
     }
+    .pageHead>p{
+        text-align: justify;
+    }
 
     .header li a {
         padding: 0;
