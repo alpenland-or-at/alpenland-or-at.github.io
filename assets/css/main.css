@@ -619,7 +619,7 @@ div.day {
     margin-bottom: -0.35rem;
 }
 
-div.event-details>h3 {
+div.event-details>h4 {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
     margin-top: -0.4rem;
@@ -679,7 +679,7 @@ div.calendar-heading-wrapper {
     gap: 1.5rem;
 }
 
-h2.calendar-heading {
+h3.calendar-heading {
     font-size: 1rem;
     flex-grow: 0;
     word-wrap: break-word;
@@ -1244,7 +1244,7 @@ a.mapLink:visited {
         padding-right: 3rem;
     }
 
-    div.event-details>h3 {
+    div.event-details>h4 {
         font-size: 2rem;
     }
 
